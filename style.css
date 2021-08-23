@@ -1,0 +1,216 @@
+html{
+    height:100%;
+}
+
+
+/*###################################### BODY ######################*/
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+
+    margin:0px;
+    padding:0px;
+
+    height:100%;
+}
+/*###################################### HEADER ######################*/
+
+.header i{
+    float:left;
+    padding:17px; 0px; 0px; 17px;
+    color:darkgreen;
+}
+
+/*###################################### BODY-HOME ######################*/
+
+.body-home{
+    background-image: url('images2/mage2.jpg');
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*###################################### HOME-PAGE MENU ######################*/
+.home-menu h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    text-align: center;
+    color:orangered;
+}
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color:gold;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border:5px solid black;
+
+    display:block;
+    margin:auto;
+    margin-bottom: 10px;
+    width: 80%;
+    padding-top: 25px;
+   
+}
+
+.home-menu i{
+    float:right;
+    color:crimson;
+   padding-left: 25px;
+}
+
+
+
+
+/*###################################### HOME-MEALS IMG ######################*/
+
+.body-menu{
+
+    background-image: url('images2/background-02-port.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals{
+    background-image: url('images2/background-02-land.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+/*###################################### MEALS-MENU ######################*/
+.home-meals-menu img{
+    width:100%;
+
+}
+
+.meals-menu h2{
+    font-size: bold;
+    font-weight: 300;
+    text-align: center;
+    color: crimson;
+    padding-top:15px;
+}
+
+
+.meals-menu p{
+    padding-left: 25px;
+
+}
+
+.meals-menu p1{
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+
+    padding-left: 15px;
+
+  
+}
+
+.meals-menu h3{
+    font-size: 20px;
+    text-align: center;
+    color:crimson;
+    padding-left:15px; 
+}
+
+.meals-menu labels{
+    line-height: 10px;
+    margin-left:10px;
+    padding-left: 15px;
+}
+
+/*###################################### FORM ######################*/
+input{
+    width: 50px;
+    height: 20px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+    padding-left: 10px;
+}
+
+textarea{
+    width: 100%;
+    height :25px;
+    margin : 12px 0;
+    border : 1px solid #929292;
+}
+
+.button{
+    display : block;
+    background-color:orangered;
+    text-decoration : none;
+    text-align  : center;
+    color       : white;
+    font-size   : 16px;
+    font-weight : 600;
+    margin : 12px 0;
+    padding : 8px 0;
+}
+
+/*###################################### FORM ######################*/
+
+.meals-menu img{
+    width:100%;
+}
+
+.meals-menu p1{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+
+.home-meals-menu a{
+    background-image: url('images2/menu-button.gif');
+    background-repeat: no-repeat;
+    color:black;
+
+    width:128px;
+    height:28px;
+    padding-left:18px;
+    padding-top:2px;
+
+    float:right;
+}
+
+/*###################################### FORM ######################*/
+
+@media only screen and (min-width:720px){
+    .body-home{
+        background-image: url('images2/my\ mage.jpg');
+        
+    }
+}
+
+@media only screen and (min-width:720px){
+    .body-menu{
+        background-image: url('images2/wooo2.jpg');
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
